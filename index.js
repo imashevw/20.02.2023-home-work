@@ -16,3 +16,15 @@ function massage(a) {
   console.log("Длина строки равна - " + a.length);
 }
 massage("How are you");
+
+
+let example = [45, 33, 11, 60, 3, 10, 15];
+for (let i = 0; example.length > i; i++) {
+  let num = example[i];
+  if (num % 2 === 0) {
+  console.log(num + " - Odd");
+  }
+  else {
+    console.log(num + " - Even");
+  } 
+}
