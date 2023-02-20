@@ -37,3 +37,9 @@ function san(a) {
 }
 san(4);
 
+
+//6
+function num(b) {
+  console.log("Корень этого числа равен - " + Math.sqrt(b));
+}
+num(9);
