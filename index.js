@@ -9,3 +9,10 @@ function coneVolume(height, radius) {
   console.log("Объем конуса равен - " + cVolume);
 }
 coneVolume(8, 3);
+
+
+
+function massage(a) {
+  console.log("Длина строки равна - " + a.length);
+}
+massage("How are you");
