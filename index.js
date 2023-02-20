@@ -43,3 +43,10 @@ function num(b) {
   console.log("Корень этого числа равен - " + Math.sqrt(b));
 }
 num(9);
+
+//7
+function perimeterofaPentagon(a, b, c, d, e) {
+  perimeter = a + b + c + d + e;
+  console.log("Периметр пятиугольника равна -  " + perimeter);
+}
+perimeterofaPentagon(3, 4, 2, 6, 8);
