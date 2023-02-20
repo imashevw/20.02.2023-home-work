@@ -50,3 +50,13 @@ function perimeterofaPentagon(a, b, c, d, e) {
   console.log("Периметр пятиугольника равна -  " + perimeter);
 }
 perimeterofaPentagon(3, 4, 2, 6, 8);
+
+
+
+//8
+let number = 33;
+for(let i = 0; i <= number; i++) {
+  if (i % 3 === 0) {
+  console.log(i);
+  }
+}
