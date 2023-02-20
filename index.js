@@ -68,3 +68,11 @@ for (let i = 0; i <= number2; i++) {
   result = i  * 2; 
     console.log(result);
 }
+
+
+//12
+for (a = 0; a <= 20; a++ ) {
+  if (a % 2 === 0) {
+    console.log(a);
+  }
+}
